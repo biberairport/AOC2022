@@ -11,8 +11,8 @@ with open("day02.txt", 'r') as filehandle:
         elif(a + b == 3 and a < b or a + b == 4 and a > b or a + b == 5 and a < b): result += 6
 # task 2
         if(b == 1): result2 += a - b
-        if(b == 2): result2 += (a + 3)
-        if(b == 3): result2 += (a + 7)
+        if(b == 2): result2 += a + 3
+        if(b == 3): result2 += a + 7
         if(a == b == 1): result2 += 3
         if(a == b == 3): result2 -= a
 
